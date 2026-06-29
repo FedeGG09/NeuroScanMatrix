@@ -1,10 +1,10 @@
-🧠 NeuroScan Matrix — Intelligent Document Understanding Engine
+# 🧠 NeuroScanMatrix — Intelligent Document Understanding Engine
 
 NeuroScan Matrix es un motor avanzado de procesamiento documental que combina múltiples modelos de visión artificial y NLP para transformar imágenes en datos estructurados listos para análisis.
 
 Inspirado en la estética tecnológica de los 90s, el sistema opera como una “matrix” de procesamiento: múltiples modelos trabajan en conjunto para interpretar, clasificar y estructurar documentos complejos.
 
-⚙️ ¿Qué hace?
+# ⚙️ ¿Qué hace?
 
 El sistema va más allá del OCR tradicional:
 
@@ -23,31 +23,33 @@ Revisión humana
 Interfaz para validar y corregir resultados.
 Exportación
 Datos estructurados listos para integraciones o análisis.
-🧬 Arquitectura
 
-El sistema está compuesto por módulos especializados:
+#🧬 Arquitectura
 
-🧠 OCR híbrido (PaddleOCR + TrOCR)
-👁️ Computer Vision (YOLOv8)
-🧩 Layout Understanding (LayoutLMv3)
-📊 Extracción estructurada y tabular
-🧪 Validación de datos
-🗂️ Registro y gestión de documentos
-⚙️ Pipeline central orquestado
-⚡ Características clave
+## El sistema está compuesto por módulos especializados:
+
+## 🧠 OCR híbrido (PaddleOCR + TrOCR)
+## 👁️ Computer Vision (YOLOv8)
+## 🧩 Layout Understanding (LayoutLMv3)
+## 📊 Extracción estructurada y tabular
+##🧪 Validación de datos
+## 🗂️ Registro y gestión de documentos
+## ⚙️ Pipeline central orquestado
+##⚡ Características clave
 Lazy loading de modelos (arranque liviano)
 Fallback heurístico si faltan modelos
 Arquitectura modular y extensible
 Preparado para fine-tuning por dominio
 Pipeline robusto tipo Document AI
-🎮 Filosofía
+
+# 🎮 Filosofía
 
 "See beyond the pixels."
 
 NeuroScan Matrix no solo lee documentos:
 los interpreta, los estructura y los convierte en datos accionables.
 
-🚀 Casos de uso
+# 🚀 Casos de uso
 Formularios
 Facturas
 Documentación administrativa
