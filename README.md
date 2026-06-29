@@ -4,6 +4,10 @@ NeuroScan Matrix es un motor avanzado de procesamiento documental que combina m�
 
 Inspirado en la estética tecnológica de los 90s, el sistema opera como una “matrix” de procesamiento: múltiples modelos trabajan en conjunto para interpretar, clasificar y estructurar documentos complejos.
 
+<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/e38af670-c98d-45d3-abe5-6bfd8a708a62" />
+
+
+
 # ⚙️ ¿Qué hace?
 
 El sistema va más allá del OCR tradicional:
