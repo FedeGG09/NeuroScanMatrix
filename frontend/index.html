@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OCR Padrón Electoral</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div>
+        <p class="eyebrow">OCR / Computer Vision</p>
+        <h1>Extracción de padrones electorales</h1>
+        <p class="subtitle">
+          Sube un PDF escaneado y el sistema reconstruye la matriz por elector:
+          nro de orden, DNI, apellido y nombre, domicilio y casillero "VOTÓ".
+        </p>
+      </div>
+      <div class="badge" id="apiStatus">API: desconectada</div>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <h2>1. Cargar documento</h2>
+        <input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg,.tif,.tiff" />
+        <button id="uploadBtn">Upload</button>
+        <div class="hint" id="uploadInfo"></div>
+      </section>
+
+      <section class="card">
+        <h2>2. Extraer matriz</h2>
+        <button id="extractBtn" disabled>Extraer filas</button>
+        <div class="hint">Se procesa página por página y se exporta a CSV / Excel.</div>
+      </section>
+
+      <section class="card wide">
+        <h2>Resumen</h2>
+        <div id="summary" class="summary"></div>
+        <div id="downloadLinks" class="download-links"></div>
+      </section>
+
+      <section class="card wide">
+        <h2>Matriz extraída</h2>
+        <div id="rowsCount" class="hint"></div>
+        <div id="rowsTable" class="table-wrap"></div>
+      </section>
+
+      <section class="card wide">
+        <h2>JSON</h2>
+        <pre id="jsonOutput">{}</pre>
+      </section>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
