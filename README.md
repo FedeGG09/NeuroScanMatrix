@@ -86,6 +86,14 @@ Open `frontend/index.html` directly or serve it with any static server.
 <img width="1811" height="885" alt="image" src="https://github.com/user-attachments/assets/74e98e89-5f5f-475a-9671-0d0dc421372a" />
 
 
+<img width="1600" height="854" alt="image" src="https://github.com/user-attachments/assets/a3ce3a42-8624-4892-91b3-e2a756d52b92" />
+
+
+<img width="1600" height="769" alt="image" src="https://github.com/user-attachments/assets/a4aa37b5-90b7-475c-9e37-9ae1f1f22e1f" />
+
+
+
+
 ## API
 
 - `POST /upload`
