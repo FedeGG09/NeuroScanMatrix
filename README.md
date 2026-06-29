@@ -83,6 +83,9 @@ uvicorn app.main:app --reload
 
 Open `frontend/index.html` directly or serve it with any static server.
 
+<img width="1811" height="885" alt="image" src="https://github.com/user-attachments/assets/74e98e89-5f5f-475a-9671-0d0dc421372a" />
+
+
 ## API
 
 - `POST /upload`
